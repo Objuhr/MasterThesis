@@ -1,4 +1,4 @@
-# Status Report Week 9
+# Status Report Week 10
 ## What has been done
 Implementation - redone the Dockerfiles to be based on the Rust docker image. Implemented the script semantics in Scala. The cross compiler collects and prints exit code, stdout and stderror to scalas stderr if a external command fails. The idea is to create a cross compiler thread and pipe its stderr to a logfile.
 
