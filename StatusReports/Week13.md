@@ -1,4 +1,4 @@
-# Status Report Week 12
+# Status Report Week 13
 ## What has been done
 Implementation - Tested the size difference between musl and gnu binaries. Implemented extracting Cargo caches for both source and compiled code of depdencies to improve compile time for subsequent compilations. Also implemented a test for checking performance penalties of compiling with cargo in a docker vs directly in the host.
 
